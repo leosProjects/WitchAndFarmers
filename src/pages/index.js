@@ -1,7 +1,11 @@
+import { Box } from "@chakra-ui/react";
+import { TableRooms } from "./components/TableRooms";
 
 
 export default function Home() {
   return (
-    <h1>teste</h1>
+    <Box px={{'md' : '25px'}}>
+      <TableRooms />
+    </Box>
   )
 }
